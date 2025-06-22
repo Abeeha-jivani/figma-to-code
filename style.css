@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myfont;
+    src: url(Manrope/Manrope-VariableFont_wght.ttf);
+}
+body{
+    font-family: myfont;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 1);
+    overflow-x: hidden;
+}
+.mainbox{
+    width:100%;
+    height: 596px;
+}
+.header{
+    width: 100%;
+    line-height: 8em;
+   
+}
+
+.header nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+}
+nav .logo{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 2em;
+}
+nav ul{
+    display: flex;
+    margin-left: 3em;
+}
+nav .logo span{
+    color: #4D77FF;
+} 
+
+nav li{
+    list-style: none;
+ margin-left: 2em;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.box{
+    margin-left: 32em;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.box .btn2 button {
+    border-radius: 10px;
+    border: 2px solid #4D77FF;
+    background-color: #4D77FF;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+    height: 489px;
+}
+section::after{
+    content: "";
+    width: 52%;
+    height: 471px;
+    position: absolute;
+    top: 119px ;
+    left:55%;
+    background-image: url(imagesfolder/doctorpiccc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+section::before{
+    content: "";
+    position: absolute;
+    Left:50%;
+    top: 271px;
+    width: 50%;
+    height: 319px;
+    background-color: #4D77FF;
+    border-top-left-radius: 150% 239%;
+    border-top-right-radius: 85% 40%;  
+}
+section .section{
+    position: absolute;
+    top: 12em;
+    left: 3em;
+}
+.section h1{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.section h1 span{
+    color: #4D77FF;
+}
+.section p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #696969;
+    margin-top: 1em;
+}
+.button button{
+    color: #FFFFFF;
+    background-color: #4D77FF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 1.4em;
+    border: 2px solid #4D77FF;
+    cursor: pointer;
+}
+.card{
+    height: 168px;
+    border-radius: 10px;
+    position: absolute;
+    top: 350px;
+    left:55%;
+    background-color: #FFFFFF;
+    box-shadow: 0px -24px 34px 0px  rgba(199, 201, 217, 0.15);
+}
+.card .img{
+    width: 100%;
+    height: 45%;
+}
+.card .img img{
+    width: 35%;
+    margin: 10px 41px;
+}
+.card h2{
+    font-size: 14px;
+    text-align: center;  
+}
+.card h3{
+    font-size: 12px ;
+    text-align: center;
+    padding: 6px 0px;
+    color: #696969;
+}
+.card .btn button{
+    background-color: #4D77FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 9px 6px;
+    margin: 0px 15.5px;
+    border: 2px solid #4D77FF;
+    cursor: pointer;
+}
+.article{
+    width: 85%;
+    height: 450px;
+    position: absolute;
+    top: 596px;
+    margin-top: 8em;
+}
+.article h2 span{
+    color: #4D77FF;
+    font-size: 14px;
+    margin: 0em 37em;
+}
+.article h4{
+    font-size:32px ;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0px 314px;
+}
+.article .maincard{
+    width: 100%;
+    height: 350px;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around; 
+}
+.cards .div{
+    width: 100%;
+    height:  3px;
+    background-color: rgba(77, 119, 255, 1);
+}
+.article .maincard .cards{
+    width: 23%;
+    height: 200px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 10px 40px 0px   rgba(18, 18, 18, 0.1);
+    border-top: 3px solid rgba(77, 119, 255, 1);
+}
+.cards .cont{  
+    font-size: 14px;
+    padding: 22px 0px 0px 15px;
+    margin: auto;
+}
+.cards p{
+    line-height: 16px;
+    margin-top: 1em;
+}
+.section2{
+    width: 100%;
+    height: 613px;
+    position: absolute;
+    top: 1094px;
+}
+.section2::after{
+    content: "";
+    width: 43%;
+    height: 595px;
+    position: absolute;
+    top: 22px ;
+    left: 775px;
+    background-image: url(imagesfolder/femaledoc.png);
+    background-repeat: no-repeat;
+}
+.section2::before{
+    content: "";
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    width: 50%;
+    height: 431px;
+    background-color: #4D77FF;
+    border-top-left-radius:  54% 95%;
+    border-top-right-radius: 50% 50%;
+}
+.section2 .box1{
+    width: 60%;
+    height: 400px;
+    position: absolute;
+    top: 95px;
+    left: 3em;
+}
+.box1 h3 span{
+    color: rgba(77, 119, 255, 1);
+    font-size: 14px;
+}
+.box1 h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgba(18, 18, 18, 1);
+    margin-top: 10px;
+}
+.box1 p{
+    color: rgba(105, 105, 105, 1);
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 29px;
+}
+.box1 .check{
+    margin-top: 1em;
+}
+.box1 .check img{
+    vertical-align: middle;
+}
+.box1 .check p{
+    color: black;
+    margin: -24px 0px 19px 38px;
+}
+.box1 .btn button{
+    background-color: #4D77FF;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 9px 26px;
+    margin: 4px 0px;
+    border: 2px solid #4D77FF;
+    cursor: pointer;
+}
+.section2 .cardd {
+    width: 177px;
+    height: 222px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    left: 690px;
+    box-shadow: -4px -10px 50px 0px   rgba(18, 18, 18, 0.1);
+}
+.cardd h2{
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 21px;
+   padding-top: 10px;
+}
+.cardd h4{
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 21px;
+    line-height: 16px;
+    color: rgba(105, 105, 105, 1);
+}
+.cardd .div2{
+    width: 85%;
+    height: 112px;
+    margin: 1em;
+    
+}
+.cardd .pic{
+    width: 100%;
+    height: 55px;
+    align-content: center;
+}
+.cardd .pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 19px;
+    float: left;
+    vertical-align: middle;
+}
+.cardd .pic h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.cardd .pic h5{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(105, 105, 105, 1);
+
+}
+.cardd .pic h3,h5{
+    float: right;
+    margin-right: 2em;
+}
+.cardd .button button{
+    background-color: rgba(237, 241, 255, 1);
+    color: rgba(77, 119, 255, 1);
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 9px 26px;
+    margin: -14px 22px;
+    border: 2px solid rgba(237, 241, 255, 1) ;
+    cursor: pointer;
+}
+.section3{
+    width: 87%;
+    height: 500px;
+    position: absolute;
+    top: 1808px;
+    left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.section3 .img{
+    width:52%;
+    height: 391px;
+    margin-top: 4em;
+}
+.section3 .img img{
+    width: 52%;
+    height: 358px;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    border-radius: 190px 152px 172px 192px;
+    z-index: 1;
+}
+.section3 .img .imgs{
+    border: 2px solid rgba(77, 119, 255, 1);
+    border-radius: 190px 152px 172px 192px;
+
+}
+.section3 .img .imga{
+    width: 52%;
+    height: 358px;
+    position: absolute;
+    top: 49px;
+    left: 11px;
+}
+.section3 .img .imgb{
+    width: 52%;
+    height: 358px;
+    position: absolute;
+    top: 83px;
+    left: -11px;
+}
+.section3 .content{
+    width: 44%;
+    height: 366px;
+    margin-top: 4em;
+}
+.section3 .content h3 span{
+    color: rgba(77, 119, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+.section3 .content h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.section3 .content p{
+    color: rgba(105, 105, 105, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 10px;
+}
+.section3 .content .check{
+    margin-top: 1em;
+}
+.section3 .content .check img{
+    vertical-align: middle;
+}
+.content .check i{
+    background-color: rgba(77, 119, 255, 1);
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    border-radius: 2em;
+    padding: 7px 8px;
+}
+.content .check p{
+    color: black;
+    margin: -34px 0px 19px 38px;
+}
+.content .btn button{
+    background-color: #4D77FF;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    padding: 9px 26px;
+    margin: 4px 0px;
+    border: 2px solid #4D77FF;
+    cursor: pointer;
+}
+.article2{
+    width: 90%;
+    height: 450px;
+    position: absolute;
+    top: 2308px;
+    left: 77px;
+    margin: auto;
+}
+.article2 h2 span{
+    color: rgba(77, 119, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin-top: 4em;
+}
+.article2 h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.article2 .maincard2{
+    width: 100%;
+    height: 303px;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around; 
+}
+.cards .div{
+    width: 100%;
+    height:  3px;
+    background-color: rgba(77, 119, 255, 1);
+}
+.article2 .maincard2 .cards{
+   width: 28%;
+    height: 200px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 10px 40px 0px   rgba(18, 18, 18, 0.1);
+    
+}
+
+.maincard2 .cards .cont {
+    font-size: 14px;
+    padding: 45px 65px;
+    display: inline-block;
+}
+ .maincard2 .cards .cont h3{
+    font-size: 32px;
+    font-weight: 700;
+ }
+ .maincard2 .cards .cont h4{
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 10px;
+
+ }
+ .maincard2 .cards .cont h5{
+    font-size: 14px ;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(105, 105, 105, 1);
+    padding-left: 34px;
+ }
+.section4{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 2838px;
+}
+.section4 h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+.section4 h3{
+    font-size:14px ;
+    font-weight: 400;
+    color: rgba(105, 105, 105, 1);
+    line-height: 20px;
+    text-align: center;
+}
+.section4 .testinomial{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 95px;
+}
+.section4 .testinomial .innerdiv{
+    background-color: rgba(237, 241, 255, 1);
+    width: 95%;
+    height: 289px;
+}
+.section4 .testinomial .innerdiv p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    float: right;
+    margin-right: 4em;
+    margin-top: 3em;
+}
+.innerdiv .images img{
+    width: 31%;
+    height: 304px;
+    position: absolute;
+    top: 57px;
+    left: 74px;
+    z-index: 2;
+}
+.innerdiv .images .img2{
+    width: 31%;
+    height: 304px;
+    border: 2px solid rgba(77, 119, 255, 1);
+    position: absolute;
+    top: 74px;
+    left: 89px;
+}
+.section4 .testinomial h4{
+    font-size:20px ;
+    font-weight:700 ;
+    line-height: 20px;
+    margin-left: 34em;
+    margin-top: 2em;
+}
+.section4 .testinomial h5{
+    font-size:14px ;
+    font-weight:700 ;
+    line-height: 14px;
+    margin-right: 34em;
+    margin-top: 1em;
+    color: rgba(105, 105, 105, 1);
+}
+.section4 .arrow{
+    width: 9%;
+    height: 50px;
+    position: absolute;
+    top: 322px;
+    left: 1180px;
+    padding-left: 12px;
+}
+.footer {
+    width: 90%;
+    height: 170px;
+    position: absolute;
+    top: 3445px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .contentdiv{
+    width: 40%;
+    height: 170px; 
+}
+.footer .contentdiv h2{
+    font-size: 24px;
+    line-height: 49.78px;
+    font-weight: 700;
+}
+.footer .contentdiv h2 span{
+    color: rgba(77, 119, 255, 1);
+}
+.contentdiv p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    padding-top: 10px;
+}
+.footer .boxes{
+    width: 50%;
+    height: 170px ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .boxes .boxx{
+    width: 21%;
+    height: 170px;
+   
+}
+.boxes .boxx h3{
+    font-size: 18px ;
+    font-weight: 700 ;
+    line-height: 28px;
+    padding-top: 12px;
+}
+.boxx .innerbox{
+    width: 100%;
+    height: 110px;
+    margin-top: 14px;
+    padding-top: 6px;
+}
+.boxx .innerbox h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.boxx .apps{
+    width: 100%;
+    height: 50px;
+    padding: 16px  0px 0px  2px;
+    margin-top: 9px;
+}
